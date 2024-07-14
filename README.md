@@ -29,7 +29,6 @@ pip install -r requirements.txt
 Avant d'utiliser l'application Streamlit, il est nécessaire de prétraiter les images et de calculer leurs signatures. Pour cela, exécutez le script data_processing.py :
 
 ```bash
-Copier le code
 python data_processing.py
 ```
 Ce script génère les fichiers signatures_glcm.npy et signatures_bitdesc.npy qui contiennent les signatures des images.
@@ -38,7 +37,6 @@ Ce script génère les fichiers signatures_glcm.npy et signatures_bitdesc.npy qu
 Après avoir prétraité les images, lancez l'application Streamlit :
 
 ```bash
-Copier le code
 streamlit run app.py
 ```
 ### Étape 3 : Utilisation de l'Interface
