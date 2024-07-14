@@ -19,13 +19,8 @@ Ce projet implémente un système de recherche d'images basé sur le contenu en 
 - scikit-image
 - Pillow
 
-Installez les dépendances avec :
-
-```bash
-pip install -r requirements.txt
-```
-##Utilisation
-###Étape 1 : Prétraitement des Images
+## Utilisation
+### Étape 1 : Prétraitement des Images
 Avant d'utiliser l'application Streamlit, il est nécessaire de prétraiter les images et de calculer leurs signatures. Pour cela, exécutez le script data_processing.py :
 
 ```bash
