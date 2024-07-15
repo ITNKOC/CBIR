@@ -18,7 +18,12 @@ Ce projet implémente un système de recherche d'images basé sur le contenu en 
 - OpenCV
 - scikit-image
 - Pillow
-
+## Dépendances à installer 
+```bash
+pip install scikit-image
+pip install bitdesc
+pip install streamlit 
+```
 ## Utilisation
 ### Étape 1 : Prétraitement des Images
 Avant d'utiliser l'application Streamlit, il est nécessaire de prétraiter les images et de calculer leurs signatures. Pour cela, exécutez le script data_processing.py :
@@ -28,7 +33,7 @@ python data_processing.py
 ```
 Ce script génère les fichiers signatures_glcm.npy et signatures_bitdesc.npy qui contiennent les signatures des images.
 
-###Étape 2 : Lancer l'Application Streamlit
+### Étape 2 : Lancer l'Application Streamlit
 Après avoir prétraité les images, lancez l'application Streamlit :
 
 ```bash
