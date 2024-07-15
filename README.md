@@ -44,7 +44,7 @@ Téléversez une image en utilisant l'interface.
 Sélectionnez le descripteur (GLCM ou BIT) et la fonction de distance (Manhattan, Euclidean, Chebyshev, Canberra) depuis la barre latérale.
 Indiquez le nombre d'images similaires à afficher.
 L'application affichera les images les plus similaires du jeu de données.
-##Détails des Fichiers
+## Détails des Fichiers
 ### app.py
 Ce fichier contient le code pour l'interface utilisateur. Il permet de téléverser une image, de sélectionner les paramètres, et d'afficher les images similaires à partir du jeu de données.
 
